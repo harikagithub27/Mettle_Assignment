@@ -1,10 +1,12 @@
 package com.demo.models;
 
+import java.util.List;
+
 import com.demo.flags.Featureflags;
 
 public class Users {
 	
-	private Featureflags featureflags;
+	private List<Featureflags> featureflags;
 	private String username;
 
 	public String getUsername() {
@@ -15,11 +17,11 @@ public class Users {
 		this.username = username;
 	}
 
-	public Featureflags getFeatureflags() {
+	public List<Featureflags> getFeatureflags() {
 		return featureflags;
 	}
 
-	public void setFeatureflags(Featureflags featureflags) {
+	public void setFeatureflags(List<Featureflags> featureflags) {
 		this.featureflags = featureflags;
 	}
 	

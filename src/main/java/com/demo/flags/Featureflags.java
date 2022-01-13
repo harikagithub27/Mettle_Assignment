@@ -9,20 +9,20 @@ public class Featureflags {
 	public static final String flagStatusDisabled = "DISABLED";
 	
 	
-	private String FlagName;
-	private String FLagStatus;
+	private String flagName;
+	private String flagStatus;
 	
 	public String getFlagName() {
-		return FlagName;
+		return flagName;
 	}
-	public void setFlagName(String flagName) {
-		FlagName = flagName;
+	public void setFlagName(String fgName) {
+		flagName = fgName;
 	}
 	public String getFLagStatus() {
-		return FLagStatus;
+		return flagStatus;
 	}
 	public void setFLagStatus(String fLagStatus) {
-		FLagStatus = fLagStatus;
+		flagStatus = fLagStatus;
 	}
 	
 	
